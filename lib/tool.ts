@@ -16,6 +16,7 @@ export const tools: Tool[] = [
   },
   { id: 1, name: 'ChatGPT', description: 'OpenAI的强大语言模型，用于对话和文本生成。', category: '对话聊天' },
   { id: 2, name: 'FileChange', description: '文件切换器', category: '文本工具', url: '/tool/file-change' },
+  { id: 3, name: 'dataCreater', description: '数据生成', category: '文本工具', url: '/tool/data-creater' },
 ]
 
 export const categories = Array.from(new Set(tools.map(tool => tool.category)))
